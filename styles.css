@@ -62,8 +62,9 @@ a:hover {
 }
 
 .main-banner h1 {
-  color: '#444';
+  color: #444;
   padding: 1.5em, 0;
+  margin-left: 0.9em;
 }
 
 .container {
