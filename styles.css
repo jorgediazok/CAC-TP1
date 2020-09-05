@@ -130,12 +130,14 @@ div h2 {
   justify-content: center;
 }
 
-input {
+input,
+textarea {
   display: inline-block;
   width: 200px;
   padding: 7px;
   border-radius: 5px;
   margin: 0 auto;
+  border: 1px solid black;
 }
 
 button {
@@ -169,4 +171,10 @@ footer a {
   display: inline-block;
   margin-left: 42.5%;
   margin-top: 30px;
+}
+
+table {
+  margin: 30px 255px 20px;
+  width: 50%;
+  border-collapse: collapse;
 }
