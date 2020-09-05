@@ -160,3 +160,13 @@ footer {
   align-items: center;
   justify-content: center;
 }
+
+footer a {
+  cursor: pointer;
+}
+
+.footer-copyright {
+  display: inline-block;
+  margin-left: 42.5%;
+  margin-top: 30px;
+}
