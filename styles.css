@@ -94,7 +94,7 @@ a:hover {
 
 .image-text {
   position: absolute;
-  margin: 150px 50px;
+  margin: 100px 120px;
 }
 
 .image-text h2 {
@@ -103,8 +103,48 @@ a:hover {
 }
 
 .image-text span {
-  font-size: 18px;
+  font-size: 16px;
   color: #999;
+}
+
+/*form*/
+
+div h2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  padding: 5px;
+  color: #444;
+}
+
+.form-box {
+  width: 400px;
+  padding: 20px;
+  margin: 50px auto;
+}
+
+.form-control {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  display: inline-block;
+  width: 200px;
+  padding: 7px;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+button {
+  background-color: transparent;
+  color: #444;
+  font-size: 1.3em;
+  border-radius: 5px;
+  margin: 20px auto;
+  padding: 5px;
 }
 
 /*Footer*/
