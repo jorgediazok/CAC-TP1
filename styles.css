@@ -252,6 +252,22 @@ header h1 {
   }
 }
 
+/*Advertising*/
+.ad-container {
+  display: flex;
+  max-width: 1200px;
+  justify-content: center;
+}
+
+.ad1 {
+  width: 40%;
+  margin: 10px;
+}
+
+.ad2 {
+  width: 40%;
+}
+
 /*Contact*/
 
 div h2 {
