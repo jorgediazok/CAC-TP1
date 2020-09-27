@@ -65,7 +65,7 @@ section {
 }
 
 .navbar-links li :hover {
-  color: #2997ff;
+  color: rgba(21, 82, 153, 1);
 }
 
 .toggle-button {
@@ -116,7 +116,7 @@ section {
   }
 }
 
-/*Banner*/
+/*Latest News*/
 
 .home {
   padding: 2em 0;
@@ -234,7 +234,7 @@ header h1 {
 
 @media (max-width: 767px) {
   main {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 2fr);
     grid-gap: 15px;
   }
   header {
@@ -245,7 +245,7 @@ header h1 {
   }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 560px) {
   main {
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 10px;
@@ -338,7 +338,7 @@ footer a {
 }
 
 footer a:hover {
-  color: #2997ff;
+  color: rgba(21, 82, 153, 1);
 }
 
 .footer-copyright {
