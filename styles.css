@@ -118,10 +118,6 @@ section {
 
 /*Latest News*/
 
-.home {
-  padding: 2em 0;
-}
-
 .container {
   max-width: 1200px;
   width: 100%;
@@ -259,9 +255,60 @@ header h1 {
   justify-content: center;
 }
 
+.icons {
+  display: flex;
+  flex-direction: column;
+  font-weight: 200;
+}
+
+.icons i {
+  margin: 10px;
+  font-size: 1.7rem;
+  color: #444;
+}
+
+.work-button {
+  cursor: pointer;
+  height: 30px;
+  border-radius: 5px;
+  color: rgba(21, 82, 153, 1) 0%;
+}
+
+.work-button:hover {
+  background: rgba(52, 152, 219, 1);
+  color: #f8f9fa;
+  transition: all 0.5s;
+}
+
 .ad2 {
   width: 40%;
   margin: 10px;
+}
+@media (max-width: 900px) {
+  .ad-container {
+    flex-wrap: wrap;
+  }
+  .icons i {
+    font-size: 1.7rem;
+  }
+  .ad2 {
+    width: 60%;
+  }
+}
+
+@media (max-width: 560px) {
+  .ad-container {
+    flex-wrap: wrap;
+  }
+  .icons i {
+    font-size: 1.3rem;
+  }
+  .ad2 {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 /*Contact*/
