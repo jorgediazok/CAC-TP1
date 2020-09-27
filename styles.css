@@ -70,14 +70,17 @@ body {
   .toggle-button {
     display: flex;
   }
-  .navbar-links {
-    display: none;
-    width: 100%;
-  }
+
   .navbar {
     flex-direction: column;
     align-items: flex-start;
   }
+
+  .navbar-links {
+    display: none;
+    width: 100%;
+  }
+
   .navbar-links ul {
     width: 100%;
     flex-direction: column;
@@ -226,17 +229,25 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 50px;
+  height: 80px;
+  background: black;
 }
 
 footer a {
   cursor: pointer;
+  margin: 15px;
+  color: white;
+}
+
+footer a:hover {
+  color: #2997ff;
 }
 
 .footer-copyright {
-  display: inline-block;
-  margin-left: 42.5%;
-  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  background: black;
+  color: white;
 }
 
 /*Posts*/
