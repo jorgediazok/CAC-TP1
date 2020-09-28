@@ -273,7 +273,8 @@ header h1 {
 
 .work-button {
   cursor: pointer;
-  height: 30px;
+  height: 40px;
+  width: 150px;
   border-radius: 5px;
   color: rgba(21, 82, 153, 1) 0%;
 }

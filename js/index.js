@@ -10,6 +10,7 @@ toggleButton.addEventListener('click', () => {
 //lightslider
 
 $(document).ready(function () {
+  // @ts-ignore
   $('#autoWidth').lightSlider({
     item: 4,
     autoWidth: true,
