@@ -444,6 +444,28 @@ header h1 {
   width: 400px;
 }
 
+@media (max-width: 767px) {
+  .contact-image {
+    width: 240px;
+  }
+  .login-form {
+    width: 290px;
+  }
+}
+
+@media (max-width: 560px) {
+  .form-container {
+    flex-direction: column;
+  }
+  .contact-image {
+    width: 300px;
+  }
+  .login-form {
+    width: 360px;
+    margin-bottom: -30px;
+  }
+}
+
 .login-form h1 {
   text-align: center;
   margin-bottom: 60px;
