@@ -555,7 +555,7 @@ header h1 {
 
 .team .team-member {
   background-color: #fff;
-  margin: 20px;
+  margin: 30px;
   margin-bottom: 50px;
   width: 300px;
   padding: 20px;
@@ -566,8 +566,8 @@ header h1 {
   transition: all 0.5s;
 }
 
-.team-member:hover {
-  transition: all 0.5s;
+.team .team-member:hover {
+  transform: scale(1.2);
 }
 
 .team .team-member h3 {
@@ -598,14 +598,64 @@ header h1 {
   height: 100px;
 }
 
-/*.about-section {
-  border: 2px solid black;
-  border-radius: 10px;
+.map-box h1 {
   text-align: center;
+  font-size: 50px;
+  color: rgba(52, 73, 94, 1);
+  font-weight: 500;
 }
 
-.list {
+.map-box p {
+  margin-top: -15px;
 }
+
+.mapouter {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.place-image {
+  width: 20%;
+  margin-left: 40px;
+}
+
+@media (max-width: 857px) {
+  .map-box {
+    padding: 10px;
+  }
+  .mapouter iframe {
+    width: 400px;
+  }
+  .place-image {
+    width: 30%;
+  }
+}
+
+@media (max-width: 550px) {
+  .map-box {
+    padding: 20px;
+  }
+  .map-box h1 {
+    font-size: 30px;
+    text-align: center;
+    text-justify: auto;
+  }
+  .map-box p {
+    margin-top: 30px;
+    font-size: 18px;
+  }
+  .mapouter {
+    flex-wrap: wrap;
+  }
+  .place-image {
+    width: 60%;
+    margin-top: 40px;
+  }
+}
+/*
+
 
 table {
   margin: 30px 255px 20px;
