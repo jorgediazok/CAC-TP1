@@ -11,10 +11,12 @@ toggleButton.addEventListener('click', () => {
 
 $(document).ready(function () {
   $('#autoWidth').lightSlider({
+    item: 4,
     autoWidth: true,
     loop: true,
+    controls: true,
     onSliderLoad: function () {
-      $('autoWidth').removeClass('cs-hidden');
+      $('#autoWidth').removeClass('cS-hidden');
     },
   });
 });

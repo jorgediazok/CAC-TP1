@@ -5,8 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/png" href="/images/favicon.ico" />
 
+    <!--LIGTSLIDER-->
+    <link type="text/css" rel="stylesheet" href="css/lightslider.css" />
+
     <!--STYLES-->
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="css/styles.css" />
 
     <!--Font Awesome-->
     <link
@@ -16,12 +19,9 @@
       crossorigin="anonymous"
     />
 
-    <!--LIGTSLIDER-->
-    <link type="text/css" rel="stylesheet" href="css/lightslider.css" />
-
     <!--JQUERY-->
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/JQuery3.3.1.js"></script>
 
     <script type="text/javascript" src="js/lightslider.js"></script>
 
@@ -181,9 +181,12 @@
     </section>
     <!--Carrousel of Ads-->
     <section>
-      <div class="carousel-container">
+      <header>
+        <h1>This site is supported by:</h1>
+      </header>
+      <div class="carousel-container" class="cS-hidden">
         <!--Slider-->
-        <ul id="autoWidth" class="cs-hidden">
+        <ul id="autoWidth">
           <li class="item-a">
             <div class="box">
               <p class="brand">NVIDIA</p>
@@ -196,20 +199,49 @@
 
           <li class="item-a">
             <div class="box">
-              <p class="brand">NVIDIA</p>
-              <img class="model" src="images/brand1.jpg" alt="nvidia" />
+              <p class="brand">INTEL</p>
+              <img class="model" src="images/intel.jpg" alt="intel" />
               <div class="details">
-                <p>The number one brand in Visual Graphics</p>
+                <p>Doings processors since the beginning.</p>
               </div>
             </div>
           </li>
 
           <li class="item-a">
             <div class="box">
-              <p class="brand">NVIDIA</p>
-              <img class="model" src="images/brand1.jpg" alt="nvidia" />
+              <p class="brand">HEROKU</p>
+              <img class="model" src="images/heroku.png" alt="heroku" />
               <div class="details">
-                <p>The number one brand in Visual Graphics</p>
+                <p>The best place to host your site</p>
+              </div>
+            </div>
+          </li>
+          <li class="item-a">
+            <div class="box">
+              <p class="brand">DELL</p>
+              <img class="model" src="images/dell.png" alt="dell" />
+              <div class="details">
+                <p>Comfort and Style in one Laptop</p>
+              </div>
+            </div>
+          </li>
+
+          <li class="item-a">
+            <div class="box">
+              <p class="brand">ROCKSTAR</p>
+              <img class="model" src="images/rockstar.jpg" alt="rockstar" />
+              <div class="details">
+                <p>We make games for gamers.</p>
+              </div>
+            </div>
+          </li>
+
+          <li class="item-a">
+            <div class="box">
+              <p class="brand">MSI</p>
+              <img class="model" src="images/msi-gaming.jpg" alt="msi" />
+              <div class="details">
+                <p>Making your games look better.</p>
               </div>
             </div>
           </li>
@@ -245,6 +277,19 @@
     </footer>
     <div class="footer-copyright">Jorge_DV © 2020 Copyright</div>
 
-    <script src="index.js"></script>
+    <script src="js/index.js"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('autoWidth').lightSlider()({
+          autoWidth: true,
+          loop: true,
+          controls: true,
+          onSliderLoad: function () {
+            $('#autoWidth').removeClass('cS-hidden');
+          },
+        });
+      });
+    </script>
   </body>
 </html>
