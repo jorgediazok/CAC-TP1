@@ -692,6 +692,10 @@ footer a:hover {
   grid-template-columns: 70% 30%;
 }
 
+.post-content {
+  width: 100%;
+}
+
 .site-content .post-content > .post-image,
 .post-title {
   font-size: 1rem;
