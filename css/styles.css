@@ -783,3 +783,46 @@ footer a:hover {
 .site-content .pagination .pages {
   background-color: #3498db;
 }
+
+/* POSTS SIDEBAR*/
+.list-items a {
+  color: #fff;
+}
+
+.category-title {
+  color: #073672;
+}
+
+.site-content > .sidebar .category-list .list-items {
+  background: #3498db;
+  cursor: pointer;
+  color: #fff;
+  padding: 0.4rem 1rem;
+  margin: 0.8rem 0;
+  border-radius: 3rem;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.popular-post {
+  margin-top: 100px;
+}
+
+.popular-post .post-info {
+  padding: 0.4rem 0.1rem !important;
+  bottom: 0rem !important;
+  left: 1rem !important;
+  border-radius: 0rem !important;
+  background: white !important;
+  color: #073672 !important;
+}
+
+.popular-title {
+  color: #073672;
+}
+
+.popular-img {
+  max-height: 200px;
+  transition: all 0.5s;
+}
