@@ -3,18 +3,33 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link rel="icon" type="image/png" href="/images/favicon.ico" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!--LIGTSLIDER-->
+    <link type="text/css" rel="stylesheet" href="css/lightslider.css" />
+
+    <!--STYLES-->
     <link rel="stylesheet" href="css/styles.css" />
+
+    <!--Font Awesome-->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
       integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o="
       crossorigin="anonymous"
     />
-    <title>JDW Techno Blog</title>
+
+    <!--JQUERY-->
+
+    <script type="text/javascript" src="js/JQuery3.3.1.js"></script>
+
+    <script type="text/javascript" src="js/lightslider.js"></script>
+
+    <title>JDW Techno News</title>
   </head>
   <body>
+    <!--Navbar-->
     <nav class="navbar">
       <div class="brand-title">JDW TECHNO</div>
       <a href="#" class="toggle-button">
@@ -32,28 +47,7 @@
         </ul>
       </div>
     </nav>
-
-    <!--Form-->
-    <div class="form-container">
-      <form class="login-form">
-        <h1 class="form-title">CONTACT US</h1>
-        <div class="txtb">
-          <input type="text" />
-          <span data-placeholder="Name"></span>
-        </div>
-        <div class="txtb">
-          <input type="email" />
-          <span data-placeholder="Email"></span>
-        </div>
-        <input type="submit" class="logbtn" value="SEND" />
-      </form>
-      <img
-        src="/images/ilust-contact-center.svg"
-        class="contact-image"
-        alt="contact"
-      />
-    </div>
-
+    <!--Footer-->
     <footer>
       <!-- Facebook -->
       <a class="fb-ic">
@@ -83,15 +77,5 @@
     <div class="footer-copyright">Jorge_DV © 2020 Copyright</div>
 
     <script src="js/index.js"></script>
-    <script type="text/javascript">
-      $('.txtb input').on('focus', function () {
-        $(this).addClass('focus');
-      });
-      $('.txtb input').on('blur', function () {
-        if ($(this).val() == '') {
-          $(this).removeClass('focus');
-        }
-      });
-    </script>
   </body>
 </html>
