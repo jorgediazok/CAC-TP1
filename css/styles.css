@@ -292,6 +292,7 @@ header h1 {
   width: 40%;
   margin: 10px;
 }
+
 @media (max-width: 900px) {
   .ad-container {
     flex-wrap: wrap;
@@ -304,7 +305,7 @@ header h1 {
   }
 }
 
-@media (max-width: 560px) {
+@media (max-width: 600px) {
   .ad-container {
     flex-wrap: wrap;
   }
@@ -957,4 +958,21 @@ footer a:hover {
     flex: 100%;
     max-width: 100%;
   }
-} ;
+}
+
+.ad3 {
+  width: 30%;
+  margin: 10px;
+}
+
+@media (max-width: 960px) {
+  .ad3 {
+    width: 50%;
+  }
+}
+
+@media (max-width: 600px) {
+  .ad3 {
+    width: 60%;
+  }
+}
