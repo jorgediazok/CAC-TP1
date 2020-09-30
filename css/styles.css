@@ -446,6 +446,7 @@ header h1 {
 
 .contact-image {
   width: 400px;
+  margin-left: 50px;
 }
 
 @media (max-width: 767px) {
@@ -876,4 +877,19 @@ footer a:hover {
 
 .popular-tags h2 {
   color: #073672;
+}
+
+/*Courses*/
+
+.courses-title {
+  font-size: 50px;
+  color: rgba(52, 73, 94, 1);
+  font-weight: 500;
+  margin-top: -30px;
+}
+
+@media (max-width: 600px) {
+  .courses-title {
+    font-size: 30px;
+  }
 }
